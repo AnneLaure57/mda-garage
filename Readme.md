@@ -24,3 +24,7 @@ Garage for storing expensive cars, like Porsche, Aston Martin, Lamborghini, etc.
 - Backend service with exposed API
 - Optional - Frontend App running in a browser
 
+# 08/03
+
+add State Diagram for the place inside in Garage
+

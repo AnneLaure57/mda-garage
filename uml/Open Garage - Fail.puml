@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+Owner -> DigitalKey: press open button
+
+DigitalKey -> DigitalLock: Send open signal
+DigitalLock -> DigitalLock: Validate the key
+DigitalLock -> DigitalLock: Validation fails
+
+@enduml
