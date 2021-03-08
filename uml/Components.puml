@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+
+package "Actors" {
+  [Garage Owner] as [owner]
+  [Rentee] as [rentee]
+}
+
+package "Garage" {
+  [Garage] as [garage]
+  [Place] as [place]
+}
+
+package "Cars" {
+    [Car] as [car]
+}
+
+@enduml

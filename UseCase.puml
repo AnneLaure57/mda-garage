@@ -1,0 +1,9 @@
+@startuml
+
+:Garage Owner : as owner
+(open Garage) as (open)
+(closae garage) as (close)
+
+:Rentee as rentee:
+
+@enduml

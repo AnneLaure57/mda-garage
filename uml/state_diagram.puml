@@ -1,0 +1,9 @@
+@startuml
+scale 600 width
+
+[*] -> Available
+Available --> Unavailable  : take place
+Unavailable --> Available :  move place
+
+
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+Owner -> DigitalKey: press open button
+
+DigitalKey -> DigitalLock: Send open signal
+DigitalLock -> DigitalLock: Validate the key
+DigitalLock -> Motor: Open the gate
+
+Motor -> Motor: Turn gears
+Motor -> Gate: Open
+
+Gate --> Owner: Gate starts to open
+Gate -> Garage: Sets Garage open
+Gate --> Owner: Owner can see the Gate open
+
+Owner -> Garage: Walks into the Garage
+
+@enduml
