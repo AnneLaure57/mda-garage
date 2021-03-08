@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Garage Owner: as owner
+(Open Garage) as (open)
+(Close Garage) as (close)
+
+:Rentee: as rentee
+(Book a place) as (book)
+(Un-Book a place) as (unbook)
+(Enter garage with a Car) as (enter)
+(Exit garage with a Car) as (exit)
+
+owner ---> (open)
+owner ---> (close)
+
+rentee --> (book)
+rentee --> (unbook)
+rentee --> (enter)
+rentee --> (exit)
+
+@enduml
